@@ -1,2 +1,2 @@
 # AHO-tangible
-Arduino Example for the tangibel interactions class
+Arduino Example for the tangible interactions class
