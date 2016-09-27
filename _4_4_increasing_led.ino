@@ -1,13 +1,11 @@
+int brightness=0;
 void setup(){
   pinMode(4,INPUT);
   pinMode(5,OUTPUT);
 }
 
 void loop(){
- if(digitalRead(4)==HIGH){ 
-digitalWrite(5, LOW);
+digitalWrite(5, brightness);
+brightness=brightness+1;
 }
-else{
-  digitalWrite(5, HIGH);
-  }
-}
+
